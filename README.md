@@ -1,6 +1,6 @@
 # Blog Project
 
-## Joy of React, Project III
+## Bits & Bytes
 
 In this project, I built an interactive MDX-based blog using Next 14:
 
@@ -28,7 +28,7 @@ npm run dev
 
 ### Homepage list of posts
 
-Homepage that shows a list of blog posts:
+The homepage that shows a list of blog posts:
 
 ![Screenshot showing the homepage with a reverse-chronological list of blog posts](/docs/homepage-list-of-posts.png)
 
@@ -52,8 +52,6 @@ I used `next-mdx-remote` to render the MDX associated with the selected blog pos
 
 ### Animated widget
 
-![Screen recording showing the default behaviour, instant transitions](/docs/division-groups-default.gif)
-
 ![Screen recording showing the final animation](/docs/divison-groups-demo-with-remainder.gif)
 
 ![Screen recording of the `CircularColorsDemo` component](/docs/circular-colors-demo.gif)
@@ -62,7 +60,7 @@ I used `next-mdx-remote` to render the MDX associated with the selected blog pos
 
 ### Handling invalid URLs
 
-In this project, I using a dynamic route segment for the `postSlug`. We look up the blog post based on this route parameter.
+In this project, I used a dynamic route segment for the `postSlug`. We look up the blog post based on this route parameter.
 
 if the user enters an invalid slug? For example, maybe they make a typo and try to visit `/javascritp-mdoulo-operatro`. Or enter a complete gibberish URL like `/fdjsmkl`, the blog will display `404 page`
 
