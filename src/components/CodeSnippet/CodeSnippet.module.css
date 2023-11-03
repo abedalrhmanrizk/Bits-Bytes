@@ -1,0 +1,28 @@
+.wrapper {
+  border-radius: 0px !important;
+  /* Removed */
+  /* margin: 0px calc(var(--viewport-padding) * -1) 64px !important; */
+  /* Removed */
+  border: 1px solid var(--color-card-border);
+}
+.wrapper pre {
+  padding: var(--viewport-padding) !important;
+
+  /* added */
+  border-radius: 8px !important;
+  margin: 0 var(--viewport-padding);
+  /* added */
+}
+.wrapper code {
+  font-family: var(--font-family-mono);
+}
+.wrapper code > div {
+  font-size: 1.125rem;
+  padding: 0px !important;
+}
+
+@media (min-width: 56rem) {
+  .wrapper {
+    border-radius: 8px !important;
+  }
+}
